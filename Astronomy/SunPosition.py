@@ -9,6 +9,7 @@ from astropy.coordinates import EarthLocation, get_sun, AltAz
 import time
 
 Philadelphia = EarthLocation(lat='+39d57m35s',lon='-75d11m49s')
+California = EarthLocation(lat='+36d46m41.7324s', lon='+119d25m4.5516s') # Go Skyline College 
 current_time = Time(time.time(), format='unix')
 
 Sun = get_sun(current_time)
